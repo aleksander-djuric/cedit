@@ -6,9 +6,6 @@ AC_CONFIG_HEADERS([config.h])
 # Checks for programs.
 AC_PROG_CC
 
-# Common compiler flags
-CFLAGS = "-Wall -O2"
-
 # Checks for libraries.
 AC_CHECK_LIB([ncurses], [initscr])
 
